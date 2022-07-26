@@ -12,10 +12,7 @@
   }
 
   
-  img{
-    
-  }
-
+  
 
 
 
@@ -52,13 +49,35 @@
   }
 
 
+
+  
+  .column{
+    flex-direction: column;
+  }
+
+
+
+
   /**** others ****/
+
+
+
   .container{
     
     width: 100%;
+    padding: 0 25px;
      
   }
 
+
+  
+  .button{
+    cursor: pointer;
+    background-color: #0084fd ;
+    text-decoration: none;
+    border: none;
+    padding: 4px 10px;
+  }
 
 
 
@@ -76,16 +95,11 @@
     width: 100%;
     background-color:#0084fd ;
     line-height: 80px;
-    padding: 0 25px;
+    
 
   }
   
-  .container{
-    
-    width: 100%;
-    
-     
-  }
+  
 
    
 
@@ -103,4 +117,29 @@
     padding-top: 110px;
     padding: 110px 25px 0 25px;
   }
+
+
+  /**** cards-section ****/
+
+
+  
+  .card{
+    background-color: #b5ddff;
+    border-radius: 16px;
+    padding: 25px 25px;
+
+  }
+
+  
+  #phone-img{
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
    /*******************************************************/
