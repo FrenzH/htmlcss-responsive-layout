@@ -395,9 +395,51 @@
 
 
   
-  span,span a{
+  span{
+    color: white;
+  }
+
+  
+  #a-policy{
     color: white;
   }
 
 
+   /******************* Footer *******************/
+
+
+  
+  
+  footer{
+    background-color: #333333;
+    color: white;
+  }
+
+  
+  .a-footer{
+    color: #67648f;
+  }
+
+
+
+
+
+
+
+
+
+
+
 /*******************************************************************/
+
+
+   /******************* Media-Query *******************/
+
+
+
+   @media screen and (min-width:700px) {
+       
+    
+   }
+
+
