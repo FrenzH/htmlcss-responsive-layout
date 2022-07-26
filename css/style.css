@@ -171,10 +171,7 @@
   /******************* Main *******************/
 
   
-  main{
-    
-    
-  }
+  
 
 
   /**** cards-section ****/
@@ -271,13 +268,48 @@
 
 
 
+  /**** benefit-section ****/
+
+  
+  #benefit-section{
+    background-color: #9792e4;
+    color: white;
+  }
 
 
 
 
+  
+  #benefit-cards,#benefit-cards div h2{
+    color: #9792e4;
+    background-color: white;
+    line-height: 2rem;
+  }
+
+
+  
+  
+  
+  .p-benefit{
+    color: black;
+    
+  }
 
 
 
+  
+  #benefit-button{
+    background-color: #9792e4;
+    color: white;
+    width: 30%;
+    padding: 7px 10px;
+  }
+
+  
+  
+  .h2-benefit-size{
+    font-size: 3rem;
+  }
 
 
 
