@@ -1,0 +1,106 @@
+
+ /**********  GENERICS  **********/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-family:'PT Sans', sans-serif;
+  }
+
+  
+  img{
+    
+  }
+
+
+
+
+
+
+  /*******************************************************/
+  
+
+  /**********  UTILITIES  **********/
+  /**** flex ****/
+
+  
+  .flex{
+    display: flex;
+  }
+
+  
+  .just-between{
+    justify-content: space-between;
+  }
+
+  
+  
+  .items-center{
+    align-items: center;
+  }
+
+
+  
+  .wrap{
+    flex-wrap: wrap;
+
+
+  }
+
+
+  /**** others ****/
+  .container{
+    
+    width: 100%;
+     
+  }
+
+
+
+
+
+  /*******************************************************/
+
+ /**********  MAIN CONTENT **********/
+ /**** header ****/
+
+
+
+ 
+  header{
+    position: fixed;
+    width: 100%;
+    background-color:#0084fd ;
+    line-height: 80px;
+    padding: 0 25px;
+
+  }
+  
+  .container{
+    
+    width: 100%;
+    
+     
+  }
+
+   
+
+  img,.fa-2x{
+    vertical-align: middle;
+    color: white;
+
+
+  }
+
+  /**** main ****/
+
+  
+  main{
+    padding-top: 110px;
+    padding: 110px 25px 0 25px;
+  }
+   /*******************************************************/
