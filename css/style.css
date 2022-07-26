@@ -11,6 +11,13 @@
     font-family:'PT Sans', sans-serif;
   }
 
+
+
+
+  
+  img{
+    width: 100%;
+  }
   
   
 
@@ -69,6 +76,12 @@
 
 
 
+  
+  .gap{
+    gap: 50px;
+  }
+
+
 
   /**** others ****/
 
@@ -114,17 +127,22 @@
 
   
   .sections{
-    margin: 40px 0;
+    margin: opx 0;
+    padding: 120px 25px 40px 25px;
   }
+  
 
-
+  
+  .w-100{
+    width: 100%;
+  }
   
   
 
   /*******************************************************/
 
- /**********  MAIN CONTENT **********/
- /**** header ****/
+ /******************  MAIN CONTENT ******************/
+ /***************** Header *****************/
 
 
 
@@ -151,12 +169,12 @@
 
   }
 
-  /**** main ****/
+  /***************** Main *****************/
 
   
   main{
     
-    padding: 110px 25px 0 25px;
+    
   }
 
 
@@ -187,8 +205,42 @@
     color: #0084fd;
   }
 
+
+  /**** planning-section ****/
+
+
+
   
+  #planning-section{
+    background-color: #9792e4;
+    color: white;
+  }
+
+
+
+
   
+  #plan-card{
+    background-color: white;
+    border-radius: 40px;
+    
+
+  }
+
+  
+  #plan-card h2,#plan-card p{
+    color: black;
+  }
+  
+  #arrow-down-div{
+    background-color: #9792e4;
+    border-radius: 60%;
+    width: 10%;
+    color: black;
+    align-self: center;
+    padding: 5px 0;
+    
+  }
 
 
 
