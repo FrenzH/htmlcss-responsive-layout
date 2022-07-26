@@ -301,8 +301,8 @@
   #benefit-button{
     background-color: #9792e4;
     color: white;
-    width: 40%;
-    padding: 7px 10px;
+    width: 50%;
+    padding: 7px 14px;
   }
 
   
@@ -354,5 +354,50 @@
 
 
   }
+
+
+
+
+  /**** tryal-section ****/
+
+
+
+  
+  #trial-section{
+    background-color:#9792e4 ;
+    color: white;
+  }
+  
+  #trial-a{
+    color:#cecdf2;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+  }
+
+
+  
+  #trial-h2{
+    color: #fdc15f;
+    font-size: 3rem;
+  }
+  
+
+
+  
+  #trial-button{
+    background-color: white;
+    color: #9792e4;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    align-self: center;
+  }
+
+
+  
+  span,span a{
+    color: white;
+  }
+
 
 /*******************************************************************/
