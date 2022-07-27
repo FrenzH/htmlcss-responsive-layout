@@ -492,6 +492,12 @@
        }
 
 
+
+       
+       #testimonial-cards{
+        flex-direction: row;
+       }
+
        
        
      
