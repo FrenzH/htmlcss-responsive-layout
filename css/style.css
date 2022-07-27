@@ -90,11 +90,24 @@
   .container{
     
     width: 100%;
-    padding: 0 25px;
+    padding: 0 35px;
      
   }
 
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px; 
+  }
 
+
+  
+  .division{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
   
   .button{
     cursor: pointer;
@@ -127,8 +140,8 @@
 
   
   .sections{
-    margin: opx 0;
-    padding: 120px 25px 40px 25px;
+   
+    padding: 120px 50px 40px 50px;
   }
   
 
@@ -184,7 +197,9 @@
     padding: 25px 25px 25px 25px;
     margin-bottom: 30px;
     gap: 20px;
-    width: 100%;
+    height: 100%;
+    
+    
     
 
   }
@@ -230,7 +245,7 @@
   
   #arrow-down-div{
     background-color: #9792e4;
-    border-radius: 60%;
+    border-radius: 100%;
     width: 10%;
     color: black;
     align-self: center;
@@ -437,7 +452,33 @@
 
 
 
-   @media screen and (min-width:700px) {
+   @media screen and (min-width:768px) {
+
+       
+       #card-section .division{
+        width: calc(100% / 3);
+        padding: 0 10px;
+        
+
+       }
+       
+       
+       #card-section .division:first-child{
+        width: calc(100% / 3 * 2);
+       }
+
+
+       
+       
+     
+       
+       
+
+
+
+        
+        
+      
        
     
    }
