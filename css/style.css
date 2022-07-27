@@ -114,7 +114,7 @@
     background-color: #0084fd ;
     text-decoration: none;
     border: none;
-    padding: 4px 7px;
+    padding: 10px 12px;
     border-radius: 16px;
     width: 70%;
     color: white;
@@ -194,7 +194,7 @@
   .card{
     background-color: #b5ddff;
     border-radius: 16px;
-    padding: 25px 25px 25px 25px;
+    padding: 25px 25px 35px 25px;
     margin-bottom: 30px;
     gap: 20px;
     height: 100%;
@@ -208,7 +208,7 @@
   #phone-img{
     width: 100%;
     position: relative;
-    top: 25px;
+    top: 35px;
   }
 
   
@@ -245,16 +245,29 @@
   
   #arrow-down-div{
     background-color: #9792e4;
-    border-radius: 100%;
-    width: 10%;
+    clip-path: circle(20%);
+    width: 20%;
     color: black;
     align-self: center;
-    padding: 5px 0;
+    padding: 20px;
+    
+    
+    
+    
     
   }
 
 
+  
+  
+  #plan-div:first-child{
+    justify-content: center;
+  }
 
+  
+  #plan-div h2{
+    font-size: 3rem;
+  }
 
 
 
@@ -465,6 +478,17 @@
        
        #card-section .division:first-child{
         width: calc(100% / 3 * 2);
+       }
+
+
+       
+       .button{
+        width: 50%;
+       }
+
+       
+       #phone-img{
+        width: 50%;
        }
 
 
